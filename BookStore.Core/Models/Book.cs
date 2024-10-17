@@ -2,7 +2,7 @@ namespace BookStore.Core.Models;
 
 public class Book
 {
-    private const int MAX_TITLE_LENGHT = 250;
+    public const int MAX_TITLE_LENGHT = 250;
     private Book(Guid id, string title, string description, decimal price)
     {
         Id = id;
